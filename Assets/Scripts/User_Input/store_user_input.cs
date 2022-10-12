@@ -39,5 +39,4 @@ public class store_user_input : MonoBehaviour
         Game_Manager.GetInstance().setplayerDifficulty(value);
     }
 
-
 }

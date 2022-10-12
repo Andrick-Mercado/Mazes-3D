@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: c428d83ffe29c468fb2b98f21ea10feb
   - enabled: 1
     path: Assets/Scenes/LevelSelection.unity

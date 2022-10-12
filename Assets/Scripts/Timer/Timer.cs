@@ -29,7 +29,13 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if (!Game_Manager.GetInstance())
+        {
+            timeCounter.text = "Time: 00:00:00";
+            timerGoing = false;
+            return;
+        }
+        
         if (Game_Manager.GetInstance().getplayerColor().Contains("Black"))
             timeCounter.color = Color.black;
         else if (Game_Manager.GetInstance().getplayerColor().Contains("White"))
